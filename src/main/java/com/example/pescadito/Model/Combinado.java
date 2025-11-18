@@ -5,21 +5,17 @@ import jakarta.persistence.*;
 @Table(name = "combinados")
 public class Combinado {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column (nullable = false)
     private String nombre;
 
-    @Column(nullable = false)
     private String descripcion;
 
-    @Column (nullable = false)
     private Double precio;
 
-    @Column (nullable = false)
     private boolean disponible;
 
-    @Column (nullable = false)
     private String categoria;
 
     public Combinado(){
