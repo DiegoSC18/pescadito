@@ -1,0 +1,1 @@
+1. Usé el patrón Builder y Creación, porque maneja los principios SOLID y ayuda a que el proyecto tenga escalabilidad. 
